@@ -1,0 +1,119 @@
+
+.top-heading{
+  width: 100%;
+  height:78px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #EBF0FF;
+  padding: 25px;
+}
+
+.top-heading h2{
+font-weight: bold;
+font-size: 16px;
+line-height: 24px;
+line-height: 150%;
+vertical-align: Top;
+letter-spacing: 0.5px;
+color: #223263;
+margin-left: 20px;
+
+}
+
+.card-cantainar{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items:center;
+}
+
+.Card {
+  width: 168px;
+  border: 1px solid #ebf0ff;
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 16px;
+  margin: 12px;
+}
+
+.Card .Card-image {
+  height: 133px;
+  width: 133px;
+  margin: auto;
+  background-color: #ebf0ff;
+}
+
+.Card .Card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.Card .Card-text {
+  margin-top: 8px;
+  background-color: #ebf0ff;
+  border-radius: 5px;
+  padding: 2px;
+  text-align: start;
+  position: relative;
+}
+.Card .Card-text .heading {
+  font-family: Poppins;
+  font-size: 12px;
+  line-height: 18px;
+  line-height: 150%;
+  vertical-align: Top;
+  letter-spacing: 0.5px;
+  color: #223263;
+}
+
+.Card .Card-text .price {
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 22px;
+  line-height: 180%;
+  vertical-align: Top;
+  letter-spacing: 0.5px;
+  color: #40bfff;
+  margin-top: 16px;
+}
+
+.Card .Card-text .price-two {
+  font-family: Poppins;
+  font-size: 10px;
+  line-height: 15px;
+  line-height: 150%;
+  vertical-align: Top;
+  letter-spacing: 0.5px;
+  color: #9098b1;
+}
+.Card .Card-text .price-discount{
+font-style: bold;
+font-size: 10px;
+line-height: 15px;
+line-height: 150%;
+vertical-align: Top;
+letter-spacing: 0.5px;
+color:#FB7181;
+margin-left: 8px;
+margin-right: 11px;
+
+}
+
+.Card .Card-text .delete{
+  position: absolute;
+  right: 2px;
+  bottom: 2px;
+}
+
+.down-bar{
+  width: 134px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: #9098B1;
+  margin: 8px auto;
+
+}
